@@ -1,7 +1,8 @@
+import ArticlePreviews from "../features/articlePreviews/articlePreview";
 const HomePage = () => {
     return (
         <div>
-            <p>HomePage</p>
+            <ArticlePreviews />
         </div>
     );
 };
