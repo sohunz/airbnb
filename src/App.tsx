@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -7,7 +7,7 @@ const App = () => {
         <div className="w-full h-screen flex flex-col justify-between">
             <div>
                 <Navbar />
-                <Outlet />
+                {/* <Outlet /> */}
             </div>
             <Footer />
         </div>
