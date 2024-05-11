@@ -16,13 +16,13 @@ const BottomNav = () => {
         <div className="w-full border-b">
             <div className="max-w-[1400px] mx-auto relative flex items-center overflow-x-hidden py-3">
                 <button
-                    className="w-[40px] h-[40px] absolute left-0 top-7 bottom-0 bg-gray-200 rounded-lg p-2 flex items-center justify-center hover:bg-gray-300 transition duration-300"
+                    className="w-[40px] h-[40px] absolute left-1 top-7 bottom-0 bg-gray-200 rounded-lg p-2 flex items-center justify-center hover:bg-gray-300 transition duration-300"
                     onClick={scrollLeft}
                 >
                     <FiChevronLeft className="text-gray-600 h-5 w-5" />
                 </button>
                 <button
-                    className="w-[40px] h-[40px] absolute right-0 top-7 bottom-0 bg-gray-200 rounded-lg p-2 flex items-center justify-center hover:bg-gray-300 transition duration-300"
+                    className="w-[40px] h-[40px] absolute right-1 top-7 bottom-0 bg-gray-200 rounded-lg p-2 flex items-center justify-center hover:bg-gray-300 transition duration-300"
                     onClick={scrollRight}
                 >
                     <FiChevronRight className="text-gray-600 h-5 w-5" />
