@@ -23,7 +23,6 @@ const Navbar = () => {
     }, []);
     return (
         <div className="w-full ">
-            {/* set this to true to see topExtraNav */}
             {condition && (
                 <button type="button" className="w-full ">
                     <div className="extra-topNav bg-slate-400 flex justify-center items-center h-14">
